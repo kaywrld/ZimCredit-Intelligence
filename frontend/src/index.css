@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #f1f5f9;
+}
+
+.status-open { background:#dbeafe; color:#1e40af; }
+.status-good { background:#dcfce7; color:#166534; }
+.status-green { background:#d1fae5; color:#065f46; }
+.status-adverse { background:#fee2e2; color:#991b1b; }
+.status-pep { background:#ffedd5; color:#9a3412; }
+.status-fair { background:#fef9c3; color:#854d0e; }
+.status-inconclusive { background:#f1f5f9; color:#475569; }
+.status-rejected { background:#fecaca; color:#7f1d1d; }
+.status-confirmation { background:#f3e8ff; color:#6b21a8; }
+.status-confirmed { background:#e0e7ff; color:#3730a3; }
+.status-incomplete { background:#f8fafc; color:#64748b; }
+.status-processing { background:#cffafe; color:#155e75; }
