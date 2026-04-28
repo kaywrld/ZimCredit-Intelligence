@@ -58,7 +58,7 @@ function SubStatusBadge({ status }) {
 
 function InfoRow({ icon: Icon, label, value, mono = false }) {
   if (!value) return null
-  return (
+  return ( 
     <div className="flex items-start gap-3 py-2.5 border-b border-gray-50 last:border-0">
       <div className="w-7 h-7 rounded-md bg-gray-100 flex items-center justify-center shrink-0 mt-0.5">
         <Icon size={13} className="text-gray-500" />
